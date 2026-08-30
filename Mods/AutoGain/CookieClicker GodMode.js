@@ -103,7 +103,7 @@ function godModeInit() {
 }
 
 document.addEventListener('keydown', e => {
-  if (e.key === 'F4') {
+  if (e.key === 'F1') {
     clicking = !clicking;
     if (clicking) {
       godModeInit();
